@@ -7,4 +7,14 @@ public class GitHubTest
     for(int i = 0; i < args.length; i++)
       System.out.println(args[i]);
   }
+
+  public class InnerClass
+  {
+    private int age;
+
+    public InnerClass(int age)
+    {
+        this.age = age;
+    }
+  }
 }
